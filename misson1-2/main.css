@@ -1,0 +1,229 @@
+/*初始化*/
+*{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+
+/*兼容IE*/
+footer main aside footer nav figure figcaption article section{
+    display: block;
+}
+
+/*通用样式*/
+body{
+    font-size: 14px;
+    color: #000000;
+    background-color: #DEDEDE;
+    font-family: "microsoft yahei";
+}
+
+p{
+    line-height: 1.8em;
+}
+
+h2{
+    font-size: 1.8em;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 0;
+    color: #666666;
+}
+
+.author, .time{
+    font-size: 0.8em;
+    color: #666666;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+article, aside{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-right: 2px solid #999999;
+    border-bottom: 2px solid #999999;
+    box-shadow: 2px 2px 3px #aaaaaa;
+}
+
+a{
+    color: #0002FB;
+}
+
+b{
+    font-weight: bold;
+}
+
+.indent{
+    text-indent: 2em;
+}
+
+/*头部*/
+.top-header {
+    height: 60px;
+    width: 100%;
+    background-color: #333333;
+    display: table;
+    vertical-align: middle;
+}
+
+.top-header span{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.top-header img {
+    margin-left: 40px;
+}
+
+.top-header nav {
+    float: right;
+}
+.top-header nav li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 25px;
+}
+
+.top-header nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.top-header nav ul li a:link{
+    color: #ffffff;
+}
+
+.top-header nav ul li a:visited{
+    color: #8798A0;
+}
+
+/*主内容区*/
+main article p:first-child{
+    text-indent: 2em;
+}
+
+main article img{
+    margin: 10px 0;
+}
+
+main article:nth-child(2) ul{
+    list-style: none;
+    margin-left: 30px;
+}
+
+main article:nth-child(2) ul li{
+    padding: 5px;
+}
+
+main article:nth-child(3) figure{
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+}
+
+main article:nth-child(3) figure img{
+    width: 100px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+main article:nth-child(3) figure figcaption{
+    font-size: 0.6em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main article:nth-child(4) ol{
+    margin-left: 50px;
+}
+
+main article:nth-child(4) ol li{
+    padding: 5px;
+}
+
+main article:nth-child(4) table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+main article:nth-child(4) table thead{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+main article:nth-child(4) table td{
+    height: 25px;
+    padding-left: 5px;
+}
+
+main article:nth-child(4) table tbody tr:last-child{
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+/*侧边栏区*/
+.right-aside{
+    margin-top: 50px;
+}
+
+.right-aside h3{
+    margin-bottom: 20px;
+    border-left: 2px solid #cccccc;
+    padding-left: 20px;
+}
+
+.right-aside .form-table{
+    width: 100%;
+}
+
+.right-aside .form-table tr{
+    height: 40px;
+}
+
+.right-aside .form-table tr td:first-child{
+    text-align: right;
+    width: 40%;
+    padding-right: 20px;
+}
+
+.right-aside .form-table small{
+    font-size: 0.8em;
+    color: #666666;
+}
+
+.right-aside .form-table textarea{
+    width: 600px;
+    height: 100px;
+}
+
+.right-aside #submit{
+    width: 100%;
+    padding: 15px;
+    background-color: #3355D0;
+    height: 40px;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*尾部区*/
+.bottom-footer{
+    background-color: #000000;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9em;
+}
